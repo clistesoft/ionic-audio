@@ -49,7 +49,7 @@ export interface IAudioTrack extends ITrackConstraint {
   completed: number;
   canPlay:  boolean;
   error: MediaError;
-  
+  content:any;
   play();
   pause();
   stop();

@@ -5,6 +5,7 @@ import { IonicModule } from 'ionic-angular';
 import {AudioTrackComponent} from './ionic-audio-track-component';
 import {AudioTrackProgressComponent, AudioTrackProgressBarComponent} from './ionic-audio-track-progress-component';
 import {AudioTrackPlayComponent} from './ionic-audio-track-play-component';
+import {AudioReadAlongComponent} from './ionic-audio-read';
 import {AudioTimePipe} from './ionic-audio-time-pipe';
 import {AudioProvider, CordovaMediaProvider, WebAudioProvider} from './ionic-audio-providers';
 
@@ -15,6 +16,7 @@ import {AudioProvider, CordovaMediaProvider, WebAudioProvider} from './ionic-aud
     AudioTrackProgressComponent, 
     AudioTrackProgressBarComponent,
     AudioTrackPlayComponent,
+    AudioReadAlongComponent,
     AudioTimePipe
   ],
   exports:      [
@@ -22,7 +24,8 @@ import {AudioProvider, CordovaMediaProvider, WebAudioProvider} from './ionic-aud
     AudioTrackProgressComponent, 
     AudioTrackProgressBarComponent,
     AudioTrackPlayComponent,
-    AudioTimePipe
+    AudioTimePipe,
+    AudioReadAlongComponent
   ],
   providers:    [],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
