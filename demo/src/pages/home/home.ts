@@ -39,6 +39,8 @@ export class HomePage {
       preload: 'metadata' // tell the plugin to preload metadata such as duration for this track,  set to 'none' to turn off
     };
 
+
+
   }
 
   ngAfterContentInit() {     
